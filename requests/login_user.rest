@@ -1,0 +1,17 @@
+# POST http://localhost:3001/api/login HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "username": "aurg",
+#     "password": "1234"
+# }
+
+
+POST http://localhost:3001/api/notes HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImF1cmciLCJpZCI6IjYxZjI0YWRmMjk4Yzg2NjkxMzYwNjkyYSIsImlhdCI6MTY0MzM0ODU5MSwiZXhwIjoxNjQzMzUyMTkxfQ.oaQGmwrPfo9Q2KSTChrAjKQOPc8Qkjgy-yXwz54qimA
+
+{
+  "content": "My third blog",
+ "important": true
+}
